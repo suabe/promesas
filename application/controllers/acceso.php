@@ -28,7 +28,6 @@
 					}
 					redirect("/");
 					$this->session->unset_userdata('redirect');
-					exit;
 				}
 				else {
 					//$this->session->set_flashdata('message', "<div class='alert alert-warning flash-message' style='margin:0px;'><h3>Usuario y/o contraseña incorrectos</h3></div>");
